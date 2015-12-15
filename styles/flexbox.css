@@ -1,0 +1,178 @@
+ /* ================================= 
+  Media Queries/Flex
+==================================== */
+
+@media (min-width: 541px) {
+
+.main-nav, .redbox-container, .topbox-container {
+	display: flex;
+}
+
+.main-nav {
+	border-bottom: none;	
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 7%;
+	padding-bottom: 0%;
+	margin-right: 0px;
+    margin-left: 0px;
+    width: 816px;
+
+}
+
+.main-nav li {
+	margin-left: 35px;
+}
+
+.page-divider {
+	display: flex;
+    border-top: 1px solid;
+    width: 100%;
+    align-self: center;
+}
+
+#designer {
+	display: flex;
+	align-self: flex-end;
+}
+
+.topbox-container {
+	justify-content: flex-start;
+}
+
+.whitebox-container {
+	border-bottom: 6.28px solid;
+	width: 400px;
+    height: 400px;
+}
+
+.yellow-container {
+	flex-direction: row;
+}
+
+.bottombox-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+#developer, #developing {
+	font-size: 40px;
+}
+
+.emptyblue-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.bluebox-container {
+	border-left: 3.14px solid;
+    border-right: 3.14px solid;
+    border-bottom: 3.14px solid;
+    height: 314px;
+    width: 339px;
+    justify-content: flex-start;
+}
+
+.threeempty-container {
+    border-left: 3.14px solid;
+    border-right: 3.14px solid;
+}
+
+.main-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.social-icons {
+	order: 2;
+	margin-right: 0;
+}
+
+.copyright {
+	display: flex;
+	align-items: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 541px) {
+
+html {
+	max-width: 802px;
+	margin: 0 auto;
+}
+
+#logo {
+	height: 145px;
+	margin-top: 80px;
+}
+
+.title {
+	font-size: 26px;
+	margin-top: -20px;
+}
+
+.insideempty-box {
+	width: 50%;
+    height: 17vh;
+    border-right: 3.14px solid;
+}
+
+#designer {
+	font-size: 40px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.main-nav li {
+	margin-right: 35px;
+}
+
+.redbox-container {
+	border-bottom: none;
+	width: 378px;
+	height: 375px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.whiteboxtwo-container {
+    height: 400px;
+    width: 69%;
+    border-left: 3.14px solid;
+    border-bottom: 6.28px solid;
+}
+
+.yellow-box {
+	height: 376.516px;
+    width: 76px;
+    border-right: 3.14px solid;
+}
+.empty-container {
+    height: 17vh;
+    border-bottom: 6.28px solid;
+}
+}

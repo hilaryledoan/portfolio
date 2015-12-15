@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f9f9f9;
+}
+
+body {
+	font-family: 'caviardreams', serif;
+}
+
+#logo {
+	height: 93px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 17px;
+	}
+
+.title {
+	font-size: 5vw;
+	margin: 0px;
+	text-align: center;
+	font-weight: normal;
+	}
+
+.main-nav {
+	border-bottom: 3.14px solid;
+	line-height: 2em;
+	list-style: none;
+    padding: 0px;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    margin: 0 auto;
+    margin-bottom: 7%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+/************ HYPERLINK ***************/
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+	color: #000;
+}
+
+a.selected, a:hover {
+	opacity: 1;
+}
+
+
+/*************************************/
+
+.redbox-container {
+    height: 281px;
+    background-color: #C23333;
+    border-bottom: 3.14px solid;
+}
+
+#designer {
+	font-weight: normal;
+    font-size: 13vw
+}
+
+.empty-container {
+	height: 9vh;
+	border-bottom: 3.14px solid;
+}
+
+.twoempty-container {
+	height: 4.5vh;
+	border-bottom: 3.14px solid;	
+}
+
+.yellow-container {
+	height: 18vh;
+    border-bottom: 3.14px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yellow-box {
+	background-color: #FBE520;
+    height: 13.5vh;
+    width: 87.92vw;
+}
+
+.bluebox-container {
+	background-color: #1717B2;
+	border-left: 3.14px solid;
+	border-right: 3.14px solid;
+	height: 281px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#developer, #developing {
+	color: #f9f9f9;
+	font-size: 13vw;
+	font-weight: normal;
+	margin: 0;
+}
+
+#developing {
+	display: flex;
+	align-self: flex-end;
+}
+
+.threeempty-container {
+	height: 9vh;
+	border-left: 3.14px solid;
+	border-right: 3.14px solid;
+}
+
+/**************FOOTER******************/
+
+.main-footer, .social-icons {
+	display: flex;
+}
+
+.social-icons {
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 155px;
+}
+
+.social-icon {
+	height: 42px;
+}
+
+.main-footer {
+	 flex-direction: column;
+	 text-align: center;
+	 margin-top: 12%;
+	 height: 73px;
+	 justify-content: space-between;
+}
+
+.copyright {
+	order: 2;
+}
